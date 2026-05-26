@@ -1,0 +1,20 @@
+{
+  "name": "codex-loop-local",
+  "interface": {
+    "displayName": "Codex Loop Local Plugins"
+  },
+  "plugins": [
+    {
+      "name": "codex-loop",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-loop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

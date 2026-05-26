@@ -5,6 +5,16 @@
   "author": {
     "name": "Manwook Han"
   },
+  "homepage": "https://github.com/manNomi/codex-loop",
+  "repository": "https://github.com/manNomi/codex-loop.git",
+  "keywords": [
+    "codex",
+    "plugin",
+    "skills",
+    "workflow",
+    "review",
+    "frontend"
+  ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Codex Loop",
