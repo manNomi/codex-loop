@@ -1,0 +1,39 @@
+{
+  "name": "codex-loop",
+  "version": "0.1.0",
+  "description": "Codex plugin bundle for goal-first planning, review feedback, and UI polish loops.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "sync:plugin": "node scripts/sync-plugin.mjs",
+    "sync:plugin:check": "node scripts/sync-plugin.mjs --check",
+    "verify:plugin-bundle": "node scripts/sync-plugin.mjs --check",
+    "validate": "node scripts/validate.mjs",
+    "test": "npm run verify:plugin-bundle && npm run validate"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    ".agents/plugins/marketplace.json",
+    "docs/",
+    "plugins/",
+    "scripts/",
+    "skills/",
+    "templates/"
+  ],
+  "keywords": [
+    "codex",
+    "plugin",
+    "skills",
+    "workflow",
+    "review",
+    "frontend"
+  ],
+  "author": "Manwook Han",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manNomi/codex-loop.git"
+  },
+  "homepage": "https://github.com/manNomi/codex-loop"
+}

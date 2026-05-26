@@ -1,0 +1,4 @@
+interface:
+  display_name: "Goal Plan Review Loop"
+  short_description: "Get implementation plans to GREEN."
+  default_prompt: "Use $goal-plan-review-loop to turn my objective into a reviewed, implementation-ready plan."

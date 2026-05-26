@@ -1,0 +1,22 @@
+{
+  "skills": [
+    {
+      "name": "goal-plan-review-loop",
+      "status": "active",
+      "plugin": true,
+      "description": "Reviewed implementation planning before code edits."
+    },
+    {
+      "name": "review-feedback-loop",
+      "status": "active",
+      "plugin": true,
+      "description": "Goal, plan, implementation, review, triage, and verification loop."
+    },
+    {
+      "name": "ui-polish-loop",
+      "status": "active",
+      "plugin": true,
+      "description": "Focused UI polish with browser-backed verification."
+    }
+  ]
+}
