@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Feedback Loop"
+  short_description: "Plan, implement, review, verify, repeat."
+  default_prompt: "Use $review-feedback-loop to plan, implement, triage review feedback, verify, and repeat until high-risk issues are resolved."

@@ -1,0 +1,27 @@
+{
+  "name": "codex-loop",
+  "version": "0.1.0",
+  "description": "Loop skills for goal-first planning, review-driven implementation, and UI polish workflows in Codex.",
+  "author": {
+    "name": "Manwook Han"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Loop",
+    "shortDescription": "Run goal, review, feedback, and UI polish loops.",
+    "longDescription": "Codex Loop provides reusable skills for slow, verified Codex workflows: turn rough objectives into reviewed plans, implement with severity-based review feedback, and iterate UI changes with browser-backed checks.",
+    "developerName": "Manwook Han",
+    "category": "Productivity",
+    "capabilities": [
+      "Workflow",
+      "Planning",
+      "Review",
+      "Frontend"
+    ],
+    "defaultPrompt": [
+      "Use a loop to plan this before coding.",
+      "Run review feedback until high-risk issues are resolved.",
+      "Polish this UI and verify it in the browser."
+    ]
+  }
+}

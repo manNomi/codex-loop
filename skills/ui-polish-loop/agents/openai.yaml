@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Polish Loop"
+  short_description: "Iterate UI changes with browser checks."
+  default_prompt: "Use $ui-polish-loop to make focused UI changes and verify them across desktop and mobile."
